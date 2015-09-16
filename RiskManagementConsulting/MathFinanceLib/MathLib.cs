@@ -480,4 +480,29 @@ namespace MathFinanceLib
             return y;
         }
     }
+
+    public class Solver
+    {
+        public double[] SolveQuadratic(double a, double b, double c)
+        {
+            // Solve the quadratic equation
+            // ax^2 + bx + c = 0
+            double sqrtpart = b * b - 4 * a * c;
+            double x1 = (-b + System.Math.Sqrt(sqrtpart)) / (2 * a);
+            double x2 = (-b - System.Math.Sqrt(sqrtpart)) / (2 * a);
+            double[] output = { x1, x2 };
+            return output;
+        }
+
+        public double SolveQuadraticPositive(double a, double b, double c)
+        {
+            // Solve the quadratic equation
+            // ax^2 + bx + c = 0
+            double sqrtpart = b * b - 4 * a * c;
+
+            // The position solution of the quadratic equation
+            double x = (-b + System.Math.Sqrt(sqrtpart)) / (2 * a);
+            return x;
+        }
+    }
 }
