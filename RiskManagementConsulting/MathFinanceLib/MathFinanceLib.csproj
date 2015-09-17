@@ -39,8 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bootstrap.cs" />
     <Compile Include="BSLib.cs" />
+    <Compile Include="IRStruct.cs" />
     <Compile Include="MathLib.cs" />
     <Compile Include="MonteCarloValuation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

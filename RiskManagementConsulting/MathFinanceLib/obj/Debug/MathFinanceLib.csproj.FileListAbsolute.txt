@@ -8,3 +8,8 @@ H:\Users\meil\RiskManagementConsulting\MathFinanceLib\bin\Debug\MathFinanceLib.p
 H:\Users\meil\RiskManagementConsulting\MathFinanceLib\obj\Debug\MathFinanceLib.csprojResolveAssemblyReference.cache
 H:\Users\meil\RiskManagementConsulting\MathFinanceLib\obj\Debug\MathFinanceLib.dll
 H:\Users\meil\RiskManagementConsulting\MathFinanceLib\obj\Debug\MathFinanceLib.pdb
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\MathFinanceLib\bin\Debug\MathFinanceLib.dll
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\MathFinanceLib\bin\Debug\MathFinanceLib.pdb
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\MathFinanceLib\obj\Debug\MathFinanceLib.csprojResolveAssemblyReference.cache
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\MathFinanceLib\obj\Debug\MathFinanceLib.dll
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\MathFinanceLib\obj\Debug\MathFinanceLib.pdb

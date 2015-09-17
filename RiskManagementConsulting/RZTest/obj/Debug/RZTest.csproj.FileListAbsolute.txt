@@ -6,3 +6,8 @@ H:\Users\meil\RiskManagementConsulting\RZTest\obj\Debug\RZTest.pdb
 C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.exe.config
 C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\obj\Debug\RZTest.exe
 C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\obj\Debug\RZTest.pdb
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\obj\Debug\RZTest.csprojResolveAssemblyReference.cache
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.exe
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.pdb
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\MathFinanceLib.dll
+C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\MathFinanceLib.pdb
