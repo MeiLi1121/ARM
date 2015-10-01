@@ -11,3 +11,11 @@ C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bi
 C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.pdb
 C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\MathFinanceLib.dll
 C:\Users\ranzhao\Documents\RiskLib Commit\ARM\RiskManagementConsulting\RZTest\bin\Debug\MathFinanceLib.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.exe.config
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\obj\Debug\RZTest.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\obj\Debug\RZTest.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\bin\Debug\RZTest.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\bin\Debug\MathFinanceLib.dll
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\bin\Debug\MathFinanceLib.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RZTest\obj\Debug\RZTest.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\bin\Debug\MLTest.exe.config
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\bin\Debug\MLTest.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\bin\Debug\MLTest.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\obj\Debug\MLTest.csprojResolveAssemblyReference.cache
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\obj\Debug\MLTest.Properties.Resources.resources
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\obj\Debug\MLTest.csproj.GenerateResource.Cache
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\obj\Debug\MLTest.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\MLTest\obj\Debug\MLTest.pdb

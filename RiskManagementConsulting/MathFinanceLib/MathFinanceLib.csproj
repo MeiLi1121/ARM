@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BSLib.cs" />
+    <Compile Include="DateUtility.cs" />
     <Compile Include="IRStruct.cs" />
     <Compile Include="MathLib.cs" />
     <Compile Include="MonteCarloValuation.cs" />

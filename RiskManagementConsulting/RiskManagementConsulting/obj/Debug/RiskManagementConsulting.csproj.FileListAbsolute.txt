@@ -18,3 +18,13 @@ H:\Users\meil\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskMa
 H:\Users\meil\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.csproj.GenerateResource.Cache
 H:\Users\meil\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.exe
 H:\Users\meil\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\bin\Debug\RiskManagementConsulting.exe.config
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\bin\Debug\RiskManagementConsulting.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\bin\Debug\RiskManagementConsulting.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\bin\Debug\MathFinanceLib.dll
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\bin\Debug\MathFinanceLib.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.csprojResolveAssemblyReference.cache
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.Properties.Resources.resources
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.csproj.GenerateResource.Cache
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\RiskManagementConsulting\obj\Debug\RiskManagementConsulting.pdb
