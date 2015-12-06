@@ -1,0 +1,15 @@
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ModelIllustrations.exe.config
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ModelIllustrations.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ModelIllustrations.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\MathFinanceLib.dll
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ZedGraph.dll
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ZedGraph.Web.dll
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\MathFinanceLib.pdb
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ZedGraph.xml
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\bin\Debug\ZedGraph.Web.xml
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\obj\Debug\ModelIllustrations.csprojResolveAssemblyReference.cache
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\obj\Debug\ModelIllustrations.Illustrator.resources
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\obj\Debug\ModelIllustrations.Properties.Resources.resources
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\obj\Debug\ModelIllustrations.csproj.GenerateResource.Cache
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\obj\Debug\ModelIllustrations.exe
+C:\Users\meil\Documents\GitHub\ARM\RiskManagementConsulting\ModelIllustrations\obj\Debug\ModelIllustrations.pdb
