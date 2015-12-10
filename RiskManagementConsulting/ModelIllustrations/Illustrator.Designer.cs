@@ -69,14 +69,22 @@
             this.callRadioButton = new System.Windows.Forms.RadioButton();
             this.putRadioButton = new System.Windows.Forms.RadioButton();
             this.deltaTab = new System.Windows.Forms.TabPage();
-            this.optDefinitionGrid = new System.Windows.Forms.DataGridView();
+            this.zedGraphControl2 = new ZedGraph.ZedGraphControl();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dayToExpTextBox = new System.Windows.Forms.TextBox();
+            this.divdendTextBox = new System.Windows.Forms.TextBox();
+            this.rateTextBox = new System.Windows.Forms.TextBox();
+            this.volTextBox = new System.Windows.Forms.TextBox();
+            this.moneynessTextBox = new System.Windows.Forms.TextBox();
+            this.optTypeTextBox = new System.Windows.Forms.TextBox();
             this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
-            this.OptionType = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.Strike = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Spot = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Vol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OptionPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loadButton = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.bsTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bsDataGridView)).BeginInit();
@@ -89,7 +97,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.spotBar)).BeginInit();
             this.bsInputBox.SuspendLayout();
             this.deltaTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.optDefinitionGrid)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -502,7 +510,8 @@
             // deltaTab
             // 
             this.deltaTab.BackColor = System.Drawing.Color.LightGray;
-            this.deltaTab.Controls.Add(this.optDefinitionGrid);
+            this.deltaTab.Controls.Add(this.zedGraphControl2);
+            this.deltaTab.Controls.Add(this.groupBox1);
             this.deltaTab.Controls.Add(this.zedGraphControl1);
             this.deltaTab.Location = new System.Drawing.Point(4, 22);
             this.deltaTab.Name = "deltaTab";
@@ -511,26 +520,148 @@
             this.deltaTab.TabIndex = 1;
             this.deltaTab.Text = "Delta Hedging Simulator";
             // 
-            // optDefinitionGrid
+            // zedGraphControl2
             // 
-            this.optDefinitionGrid.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.optDefinitionGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.optDefinitionGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.OptionType,
-            this.Strike,
-            this.Time,
-            this.Spot,
-            this.Vol,
-            this.OptionPrice});
-            this.optDefinitionGrid.Location = new System.Drawing.Point(0, 0);
-            this.optDefinitionGrid.Name = "optDefinitionGrid";
-            this.optDefinitionGrid.RowHeadersVisible = false;
-            this.optDefinitionGrid.Size = new System.Drawing.Size(736, 46);
-            this.optDefinitionGrid.TabIndex = 1;
+            this.zedGraphControl2.Location = new System.Drawing.Point(171, 6);
+            this.zedGraphControl2.Name = "zedGraphControl2";
+            this.zedGraphControl2.ScrollGrace = 0D;
+            this.zedGraphControl2.ScrollMaxX = 0D;
+            this.zedGraphControl2.ScrollMaxY = 0D;
+            this.zedGraphControl2.ScrollMaxY2 = 0D;
+            this.zedGraphControl2.ScrollMinX = 0D;
+            this.zedGraphControl2.ScrollMinY = 0D;
+            this.zedGraphControl2.ScrollMinY2 = 0D;
+            this.zedGraphControl2.Size = new System.Drawing.Size(565, 357);
+            this.zedGraphControl2.TabIndex = 2;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightGray;
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBox1.Controls.Add(this.loadButton);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.dayToExpTextBox);
+            this.groupBox1.Controls.Add(this.divdendTextBox);
+            this.groupBox1.Controls.Add(this.rateTextBox);
+            this.groupBox1.Controls.Add(this.volTextBox);
+            this.groupBox1.Controls.Add(this.moneynessTextBox);
+            this.groupBox1.Controls.Add(this.optTypeTextBox);
+            this.groupBox1.Location = new System.Drawing.Point(7, -1);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(158, 436);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(8, 206);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Days Expire";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(8, 180);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(49, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Dividend";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(8, 154);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Rate";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(8, 128);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Volatility";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(8, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Moneyness";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(8, 76);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Option Type";
+            // 
+            // dayToExpTextBox
+            // 
+            this.dayToExpTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.dayToExpTextBox.Location = new System.Drawing.Point(81, 203);
+            this.dayToExpTextBox.Name = "dayToExpTextBox";
+            this.dayToExpTextBox.Size = new System.Drawing.Size(71, 20);
+            this.dayToExpTextBox.TabIndex = 5;
+            // 
+            // divdendTextBox
+            // 
+            this.divdendTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.divdendTextBox.Location = new System.Drawing.Point(81, 177);
+            this.divdendTextBox.Name = "divdendTextBox";
+            this.divdendTextBox.Size = new System.Drawing.Size(71, 20);
+            this.divdendTextBox.TabIndex = 4;
+            // 
+            // rateTextBox
+            // 
+            this.rateTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.rateTextBox.Location = new System.Drawing.Point(81, 151);
+            this.rateTextBox.Name = "rateTextBox";
+            this.rateTextBox.Size = new System.Drawing.Size(71, 20);
+            this.rateTextBox.TabIndex = 3;
+            // 
+            // volTextBox
+            // 
+            this.volTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.volTextBox.Location = new System.Drawing.Point(81, 125);
+            this.volTextBox.Name = "volTextBox";
+            this.volTextBox.Size = new System.Drawing.Size(71, 20);
+            this.volTextBox.TabIndex = 2;
+            // 
+            // moneynessTextBox
+            // 
+            this.moneynessTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.moneynessTextBox.Location = new System.Drawing.Point(81, 99);
+            this.moneynessTextBox.Name = "moneynessTextBox";
+            this.moneynessTextBox.Size = new System.Drawing.Size(71, 20);
+            this.moneynessTextBox.TabIndex = 1;
+            // 
+            // optTypeTextBox
+            // 
+            this.optTypeTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.optTypeTextBox.Location = new System.Drawing.Point(81, 73);
+            this.optTypeTextBox.Name = "optTypeTextBox";
+            this.optTypeTextBox.Size = new System.Drawing.Size(71, 20);
+            this.optTypeTextBox.TabIndex = 0;
             // 
             // zedGraphControl1
             // 
-            this.zedGraphControl1.Location = new System.Drawing.Point(-4, 369);
+            this.zedGraphControl1.Location = new System.Drawing.Point(171, 369);
             this.zedGraphControl1.Name = "zedGraphControl1";
             this.zedGraphControl1.ScrollGrace = 0D;
             this.zedGraphControl1.ScrollMaxX = 0D;
@@ -539,55 +670,17 @@
             this.zedGraphControl1.ScrollMinX = 0D;
             this.zedGraphControl1.ScrollMinY = 0D;
             this.zedGraphControl1.ScrollMinY2 = 0D;
-            this.zedGraphControl1.Size = new System.Drawing.Size(740, 68);
+            this.zedGraphControl1.Size = new System.Drawing.Size(565, 68);
             this.zedGraphControl1.TabIndex = 0;
             // 
-            // OptionType
+            // loadButton
             // 
-            this.OptionType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.OptionType.FillWeight = 80F;
-            this.OptionType.HeaderText = "Option Type";
-            this.OptionType.Items.AddRange(new object[] {
-            "PUT",
-            "CALL"});
-            this.OptionType.Name = "OptionType";
-            // 
-            // Strike
-            // 
-            this.Strike.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Strike.FillWeight = 90F;
-            this.Strike.HeaderText = "Moneyness (%)";
-            this.Strike.Name = "Strike";
-            // 
-            // Time
-            // 
-            this.Time.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Time.HeaderText = "Day to Maturity (1-252)";
-            this.Time.Name = "Time";
-            // 
-            // Spot
-            // 
-            this.Spot.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Spot.FillWeight = 90F;
-            this.Spot.HeaderText = "Stock Price";
-            this.Spot.Name = "Spot";
-            this.Spot.ReadOnly = true;
-            // 
-            // Vol
-            // 
-            this.Vol.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Vol.FillWeight = 90F;
-            this.Vol.HeaderText = "Implied Volatility";
-            this.Vol.Name = "Vol";
-            this.Vol.ReadOnly = true;
-            // 
-            // OptionPrice
-            // 
-            this.OptionPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.OptionPrice.FillWeight = 50F;
-            this.OptionPrice.HeaderText = "Price";
-            this.OptionPrice.Name = "OptionPrice";
-            this.OptionPrice.ReadOnly = true;
+            this.loadButton.Location = new System.Drawing.Point(15, 19);
+            this.loadButton.Name = "loadButton";
+            this.loadButton.Size = new System.Drawing.Size(127, 43);
+            this.loadButton.TabIndex = 12;
+            this.loadButton.Text = "Load Data";
+            this.loadButton.UseVisualStyleBackColor = true;
             // 
             // Illustrator
             // 
@@ -611,7 +704,8 @@
             this.bsInputBox.ResumeLayout(false);
             this.bsInputBox.PerformLayout();
             this.deltaTab.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.optDefinitionGrid)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -659,13 +753,21 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Theta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Vega;
         private ZedGraph.ZedGraphControl zedGraphControl1;
-        private System.Windows.Forms.DataGridView optDefinitionGrid;
-        private System.Windows.Forms.DataGridViewComboBoxColumn OptionType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Strike;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Time;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Spot;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Vol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OptionPrice;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox optTypeTextBox;
+        private System.Windows.Forms.TextBox volTextBox;
+        private System.Windows.Forms.TextBox moneynessTextBox;
+        private System.Windows.Forms.TextBox dayToExpTextBox;
+        private System.Windows.Forms.TextBox divdendTextBox;
+        private System.Windows.Forms.TextBox rateTextBox;
+        private ZedGraph.ZedGraphControl zedGraphControl2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button loadButton;
 
        
     }
