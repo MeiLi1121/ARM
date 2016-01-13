@@ -71,6 +71,7 @@
             this.deltaTab = new System.Windows.Forms.TabPage();
             this.zedGraphControl2 = new ZedGraph.ZedGraphControl();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.loadButton = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -84,7 +85,7 @@
             this.moneynessTextBox = new System.Windows.Forms.TextBox();
             this.optTypeTextBox = new System.Windows.Forms.TextBox();
             this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
-            this.loadButton = new System.Windows.Forms.Button();
+            this.volSurfTab = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.bsTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bsDataGridView)).BeginInit();
@@ -103,6 +104,7 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.bsTab);
+            this.tabControl1.Controls.Add(this.volSurfTab);
             this.tabControl1.Controls.Add(this.deltaTab);
             this.tabControl1.Location = new System.Drawing.Point(2, 2);
             this.tabControl1.Name = "tabControl1";
@@ -557,6 +559,15 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
+            // loadButton
+            // 
+            this.loadButton.Location = new System.Drawing.Point(15, 19);
+            this.loadButton.Name = "loadButton";
+            this.loadButton.Size = new System.Drawing.Size(127, 43);
+            this.loadButton.TabIndex = 12;
+            this.loadButton.Text = "Load Data";
+            this.loadButton.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -673,14 +684,15 @@
             this.zedGraphControl1.Size = new System.Drawing.Size(565, 68);
             this.zedGraphControl1.TabIndex = 0;
             // 
-            // loadButton
+            // volSurfTab
             // 
-            this.loadButton.Location = new System.Drawing.Point(15, 19);
-            this.loadButton.Name = "loadButton";
-            this.loadButton.Size = new System.Drawing.Size(127, 43);
-            this.loadButton.TabIndex = 12;
-            this.loadButton.Text = "Load Data";
-            this.loadButton.UseVisualStyleBackColor = true;
+            this.volSurfTab.Location = new System.Drawing.Point(4, 22);
+            this.volSurfTab.Name = "volSurfTab";
+            this.volSurfTab.Padding = new System.Windows.Forms.Padding(3);
+            this.volSurfTab.Size = new System.Drawing.Size(737, 438);
+            this.volSurfTab.TabIndex = 2;
+            this.volSurfTab.Text = "Volatility Surface";
+            this.volSurfTab.UseVisualStyleBackColor = true;
             // 
             // Illustrator
             // 
@@ -768,6 +780,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button loadButton;
+        private System.Windows.Forms.TabPage volSurfTab;
 
        
     }
